@@ -3,13 +3,14 @@
     push:
       branches:
         - main
+      tags-ignore:
+        - 'no_ci*'
     workflow_dispatch:
 
   jobs:
 #    validate:
     package:
       name: Package
-      if: ${{ github.ref_name != 'no_ci' }}
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v3
