@@ -1,4 +1,4 @@
-package org.cecil.commonawsjvm
+package org.cecil.commonlib
 
 import org.springframework.boot.fromApplication
 import org.springframework.boot.test.context.TestConfiguration
@@ -8,5 +8,5 @@ import org.springframework.boot.with
 class CommonLibApplicationTest
 
 fun main(args: Array<String>) {
-	fromApplication<CommonAwsJvmApplication>().with(TestCommonAwsJvmApplication::class).run(*args)
+	fromApplication<CommonJvmLibApplication>().with(CommonLibApplicationTest::class).run(*args)
 }

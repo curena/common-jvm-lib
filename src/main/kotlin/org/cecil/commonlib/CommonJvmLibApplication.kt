@@ -1,4 +1,4 @@
-package org.cecil.commonawsjvm
+package org.cecil.commonlib
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

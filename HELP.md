@@ -1,8 +1,3 @@
-# Read Me First
-The following was discovered as part of building this project:
-
-* The original package name 'org.cecil.common-aws-jvm' is invalid and this project uses 'org.cecil.commonawsjvm' instead.
-
 # Getting Started
 
 ### Reference Documentation
