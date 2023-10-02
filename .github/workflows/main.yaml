@@ -9,6 +9,7 @@
 #    validate:
     package:
       name: Package
+      if: ${{ github.ref_name != 'no_ci' }}
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v3
