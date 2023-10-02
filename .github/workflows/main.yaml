@@ -1,3 +1,4 @@
+  name: Validate, Package, Deploy
   on:
     push:
       branches:
@@ -15,6 +16,8 @@
           with:
             distribution: 'zulu'
             java-version: '20'
+            check-latest: false
+            cache: 'gradle'
         - run: |
             ./gradlew build
         #    publish:
